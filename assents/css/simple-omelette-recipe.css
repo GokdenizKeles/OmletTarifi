@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+ padding: 0;
+}
+body {
+  background: var(--color-stone-100, rgba(243, 229, 215, 1));
+   font-family: "outfit";
+}
+.main {
+  margin-inline: auto;
+  background: var(--color-white, rgba(255, 255, 255, 1));
+ width: 736px;
+ text-align: center;
+  margin-block: 128px;
+  padding-inline: 40px;
+  border-radius: 24px;
+}
+.main img {
+   
+    padding-block: 40px;
+   display: block;
+  }
+.main h1 {
+ font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+padding-bottom: 24px;
+font-family: sans-serif;
+}
+p {
+ color: #5F564D;
+line-height: 24px;
+text-align: left;
+
+}
+.preparation-box {
+  width: 656px;
+  background: var(--color-rose-50, #FFF7FB);
+ margin-block: 32px;
+ padding-inline: 24px;
+
+}
+.preparation-box ul li span {
+   font-weight: 700;
+   
+ }
+ li {
+  text-align: left;
+  color: #5F564D;
+  padding-bottom: 8px;
+ line-height: 24px;
+ }
+ .preparation-box h6 {
+    text-align: left;
+    color: #7A284E;
+    font-size:20px ;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+ 
+ .İngredients-box {
+  
+   margin-bottom: 32px ;
+}
+ 
+  .İngredients-box h2 {
+ font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #854632;
+padding-bottom: 24px;
+  font-family: sans-serif;
+}
+.intermediate-line {
+    display: block;
+    border: 1px solid var(--color-stone-150, rgba(227, 221, 215, 1));
+}
+.İnstructions-box {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.İnstructions-box h3 {
+ color: #854632;
+font-size:28px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+padding-bottom: 24px;
+font-family: sans-serif;
+}
+.İnstructions-box ol li span {
+  font-weight: 700;
+}
+.Nutrition {
+  margin-top: 32px;
+  padding-bottom: 40px;
+}
+.Nutrition h4 {
+  color: #854632;
+font-size:28px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+padding-bottom: 24px;
+font-family: sans-serif;
+}
+.fooder-border {
+  border-collapse: collapse;
+ margin-top: 24px;
+ 
+}
+.fooder-border td {
+ 
+ text-align: left;
+ color: #5F564D;
+ padding-block: 12px;
+ border-bottom: 1px solid var(--color-stone-150, rgba(227, 221, 215, 1));
+ width: 656px;
+
+}
+.fooder-border .symbol {
+  font-weight: 700;
+    line-height: 24px;
+    color: #854632;
+  
+  }
+ .fooder-border .ffa {
+  border-bottom: none;
+ }
+
